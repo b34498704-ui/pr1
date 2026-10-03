@@ -1,0 +1,54 @@
+.fr{
+    background: #0c3a5f;
+      box-shadow: -10px -15px 60px  #04223a;
+
+  color: white;
+}
+.contai {
+     width: 90%;
+  margin: 19 auto;
+  margin: 0px 90px;
+   
+  
+  h3 {
+    font-size: 30px;
+       
+  }
+}
+  .Vard {
+       width: 200px;
+ 
+  border-radius: 10px;
+    background: #0c3a5f;
+  text-align: center;
+  box-shadow: 0 9px 35px rgba(0, 0, 0, 0.1);
+ 
+ 
+  h1{
+    font-size: 18px;
+    text-align: start;
+    color: #f7f7f7;
+    
+    
+  }
+  h2{
+    font-size: 15px;
+    text-align: start;
+    color: #979696;
+  }
+    }
+.tero{
+     display: flex;
+  
+ transition: 0.3s;
+  gap: 20px;
+
+  overflow: scroll;
+}
+.tero img {
+    border-radius: 10px;
+}
+.tero :hover{
+transform: translateY(-10px);
+
+}

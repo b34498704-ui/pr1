@@ -1,0 +1,50 @@
+#movieDeatil{
+ height: 110vx; 
+  
+}
+.movieDeatil {
+  display: flex;
+  /* margin-top: 60px; */
+  gap: 50px;
+  
+}
+
+.movieDeatilTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.by {
+  display: flex;
+  gap: 30px;
+
+
+  .asrc {
+    padding: 20px 20px;
+    background: black;
+    color: rgb(248, 245, 245);
+    border: none;
+    border-radius: 180px;
+    transition: transform 0.5s ease;
+    
+  }
+}
+.asrc :hover {
+    transition: transform 0.3s ease ;
+    transform: scale (1.09) ;
+}
+
+img {
+  border-radius: 15px;
+}
+.rating{
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 6px solid rgb(4, 147, 6);
+}
